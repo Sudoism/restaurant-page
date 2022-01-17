@@ -1,7 +1,10 @@
-import {initialPageLoad} from './initial-page-load';
+import {presentation} from './presentation';
 import {contact} from './contact';
+import {meny} from './meny';
 
-//initialPageLoad.initialization();
-contact.displayContactPage();
+presentation.displayPage();
+contact.displayPage();
+meny.displayPage();
+
 
 

@@ -1,9 +1,9 @@
 import Picture from './restaurant.jpeg'
 
-const initialPageLoad = (function () {
+const presentation = (function () {
     const _content = document.getElementById("content")
 
-    function initialization() {
+    function displayPage() {
         const _title = document.createElement('h1');
         _title.innerText = "Awsome Restaurant";
         _content.appendChild(_title);
@@ -18,7 +18,7 @@ const initialPageLoad = (function () {
 
     }
 
-    return {initialization};
+    return {displayPage};
 })();
 
-export {initialPageLoad};
+export {presentation};
