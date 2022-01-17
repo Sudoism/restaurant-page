@@ -1,3 +1,7 @@
 import {initialPageLoad} from './initial-page-load';
+import {contact} from './contact';
 
-initialPageLoad.initialization();
+//initialPageLoad.initialization();
+contact.displayContactPage();
+
+
