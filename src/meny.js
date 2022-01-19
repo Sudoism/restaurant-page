@@ -2,6 +2,7 @@ const meny = (function () {
     const _content = document.getElementById("content")
 
     function displayPage() {
+
         const _title = document.createElement('h1');
         _title.innerText = "Meny";
         _content.appendChild(_title);

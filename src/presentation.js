@@ -1,7 +1,7 @@
 import Picture from './restaurant.jpeg'
 
 const presentation = (function () {
-    const _content = document.getElementById("content")
+    const _content = document.getElementById("content");
 
     function displayPage() {
         const _title = document.createElement('h1');
@@ -15,7 +15,6 @@ const presentation = (function () {
         const _resturantPicture = new Image();
         _resturantPicture.src = Picture;
         _content.appendChild(_resturantPicture);
-
     }
 
     return {displayPage};
