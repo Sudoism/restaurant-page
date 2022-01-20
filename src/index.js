@@ -1,6 +1,7 @@
 import {presentation} from './presentation';
 import {contact} from './contact';
 import {meny} from './meny'; 
+import './indexstyle.css'
 
 const displayController = (function(){
     const _content = document.getElementById("content")
